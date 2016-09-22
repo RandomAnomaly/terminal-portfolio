@@ -1,7 +1,8 @@
 {
-    "name": "retropomodoro",
-    "private": true,
-    "devDependencies": {
-        
-    }
+  "name": "terminal-portfolio",
+  "author": "Jack Gammon",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
 }
