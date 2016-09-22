@@ -1,3 +1,21 @@
 svg {
     stroke-width: 0.5px;
 }
+
+.terminalButtonIdle  rect{
+    fill: none;
+    
+}
+
+.terminalButtonIdle text {
+    fill: orange;
+}
+
+
+.terminalButtonActive rect {
+    fill: orange;
+}
+
+.terminalButtonActive text {
+    fill: black;
+}
