@@ -15,7 +15,6 @@
 
 
 
-
     <div class="navbar">
         <ng-include src="'navbar.html'"></ng-include>
     </div>
@@ -26,7 +25,15 @@
 
 
 
-
+<svg>    
+<filter id="glow">
+                    <feGaussianBlur stdDeviation="0.3" result="coloredBlur" />
+                    <feMerge>
+                        <feMergeNode in="coloredBlur" />
+                        <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                </filter>
+</svg>
 
 
 
