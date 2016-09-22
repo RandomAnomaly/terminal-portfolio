@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolio">
 
 <head>
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <!--<script src="app/app.js"></script>
-    <script src="app/pomodoroController.js"></script>
-    <link rel="stylesheet" href="styles.css">-->
+    <script src="../app.js"></script>
+    <!--<script src="app/pomodoroController.js"></script>-->
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
@@ -16,6 +16,9 @@
 
 
 
+    <div>
+        <ng-include src="'navbar.html'"></ng-include>
+    </div>
 
 
 
@@ -27,8 +30,7 @@
 
 
 
-
-<!-- 
+    <!-- 
 NB for Later
 <div class=" content" ng-controller="pomodoroController">
         <!--<div>
@@ -50,10 +52,6 @@ NB for Later
             </svg>
             </div>
         </div>-->
-<iframe src="app/views/app.html" width="100%" height="100%"></iframe>
-        <div class="overlay" width="100%" height="100%">
-        </div>
-    </div>-->
 </body>
 
 </html>

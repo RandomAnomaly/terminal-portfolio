@@ -1,3 +1,3 @@
 'use strict';
 
-var app = angular.module('pomodoro', []);
+var app = angular.module('portfolio', []);
