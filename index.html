@@ -3,38 +3,19 @@
 
 <head>
     <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/pomodoroController.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app/styles/styles.css">
 </head>
 
 <body>
-    <div class=" content" ng-controller="pomodoroController">
-        <div>
-            <div class="col-xs-8 col-xs-push-2">
-            <svg width="100%" height="100%" viewBox="0 0 100 100">
 
-                <filter id="glow">
-                    <feGaussianBlur stdDeviation="0.3" result="coloredBlur" />
-                    <feMerge>
-                        <feMergeNode in="coloredBlur" />
-                        <feMergeNode in="SourceGraphic" />
-                    </feMerge>
-                </filter>
+    <div class="content">
 
-
-
-                <rect x="45" y="1" width="10" height="30" fill="none" stroke={{color}} filter="url(#glow)" onclick="console.log('click!');" />
-                <text x="60" y="30" fill={{color}} font-family="monospace" filter="url(#glow)">{{timeRemaining}}</text>
-            </svg>
-            </div>
-        </div>
-
-        <div class="overlay" width="100%" height="100%">
+        <div class="overlay">
         </div>
     </div>
+
+
+
 </body>
 
 </html>
