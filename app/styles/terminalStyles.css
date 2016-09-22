@@ -20,3 +20,6 @@ svg {
     fill: black;
 }
 
+.navbar g rect {
+    stroke: none;
+}
