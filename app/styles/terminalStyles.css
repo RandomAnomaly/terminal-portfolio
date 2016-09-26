@@ -24,3 +24,7 @@ svg {
     stroke: none;
 }
 
+#backgroundText text {
+    -webkit-transition: x 2s;
+    transition: x 2s;
+}
