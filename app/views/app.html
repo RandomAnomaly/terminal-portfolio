@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script src="../app.js"></script>
-    <!--<script src="app/pomodoroController.js"></script>-->
+    <script src="../portfolioController.js"></script>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/terminalStyles.css">
 </head>
@@ -16,9 +16,9 @@
 
 
 
-    <div class="navbar">
+    <!--<div class="navbar">
         <ng-include src="'navbar.html'"></ng-include>
-    </div>
+    </div>-->
 
 
     <div>
@@ -28,15 +28,15 @@
 
 
 
-<svg>    
-<filter id="glow">
-                    <feGaussianBlur stdDeviation="0.3" result="coloredBlur" />
-                    <feMerge>
-                        <feMergeNode in="coloredBlur" />
-                        <feMergeNode in="SourceGraphic" />
-                    </feMerge>
-                </filter>
-</svg>
+    <svg>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="0.3" result="coloredBlur" />
+            <feMerge>
+                <feMergeNode in="coloredBlur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </svg>
 
 
 
