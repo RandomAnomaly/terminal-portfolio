@@ -13,34 +13,33 @@
 
 <body>
 
+    <div class="container-fluid">
+
+        <div class="navbar row">
+            <ng-include src="'navbar.html'"></ng-include>
+        </div>
+
+
+        <div class="row">
+            <ng-include src="'content.html'"></ng-include>
+        </div>
 
 
 
-    <!--<div class="navbar">
-        <ng-include src="'navbar.html'"></ng-include>
-    </div>-->
 
-
-    <div>
-        <ng-include src="'content.html'"></ng-include>
-    </div>
-
-
-
-
-    <svg>
-        <filter id="glow">
-            <feGaussianBlur stdDeviation="0.3" result="coloredBlur" />
-            <feMerge>
-                <feMergeNode in="coloredBlur" />
-                <feMergeNode in="SourceGraphic" />
-            </feMerge>
-        </filter>
-    </svg>
+        <svg>
+            <filter id="glow">
+                <feGaussianBlur stdDeviation="0.3" result="coloredBlur" />
+                <feMerge>
+                    <feMergeNode in="coloredBlur" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </svg>
 
 
 
-    <!-- 
+        <!-- 
 NB for Later
 <div class=" content" ng-controller="pomodoroController">
         <!--<div>
@@ -54,14 +53,12 @@ NB for Later
                         <feMergeNode in="SourceGraphic" />
                     </feMerge>
                 </filter>
-
-
-
                 <rect x="45" y="1" width="10" height="30" fill="none" stroke={{color}} filter="url(#glow)" onclick="console.log('click!');" />
                 <text x="60" y="30" fill={{color}} font-family="monospace" filter="url(#glow)">{{timeRemaining}}</text>
             </svg>
             </div>
         </div>-->
+    </div>
 </body>
 
 </html>

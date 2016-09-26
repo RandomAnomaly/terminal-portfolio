@@ -1,3 +1,8 @@
+@font-face {
+    font-family: monofur;
+    src: url(../bin/monof55.ttf);
+}
+
 svg {
     stroke-width: 0.5px;
 }
@@ -27,4 +32,12 @@ svg {
 #backgroundText text {
     -webkit-transition: x 2s;
     transition: x 2s;
+}
+
+#imageRow {
+    padding-top: 15%;
+}
+
+text {
+    font-family: monofur;
 }
