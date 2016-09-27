@@ -8,25 +8,25 @@ svg {
 }
 
 .terminalButtonIdle  rect{
-    fill: none;
+    fill: orange;
     
 }
 
 .terminalButtonIdle text {
-    fill: orange;
+    fill: black;
 }
 
 
 .terminalButtonActive rect {
-    fill: orange;
-}
-
-.terminalButtonActive text {
     fill: black;
 }
 
+.terminalButtonActive text {
+    fill: orange;
+}
+
 .navbar g rect {
-    stroke: none;
+    /*stroke: none;*/
 }
 
 #backgroundText text {
