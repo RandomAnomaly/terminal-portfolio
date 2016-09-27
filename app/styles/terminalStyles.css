@@ -35,9 +35,14 @@ svg {
 }
 
 #imageRow {
-    padding-top: 15%;
+    padding-top: 8%;
 }
 
 text {
     font-family: monofur;
+}
+
+#hiText, #clipPath text {
+    font-family: impact;
+        
 }
